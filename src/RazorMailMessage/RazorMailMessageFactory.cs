@@ -67,8 +67,6 @@ namespace RazorMailMessage
                 BaseTemplateType = templateBase
             };
 
-            templateServiceConfiguration.CompilerServiceFactory = new RazorEngine.Roslyn.RoslynCompilerServiceFactory();
-
             if (dependencyResolver != null)
             {
                 templateServiceConfiguration.Activator = new Activators.Activator(dependencyResolver);
