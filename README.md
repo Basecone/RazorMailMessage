@@ -95,7 +95,10 @@ The custom template cache can be set in the constructor of the RazorMailMessageF
 In the source code you will find an example project. Which is a console application showcasing the possibilties of the library.
 
 
-
+## Compliance Links ##
+[Barometer IT](https://wolterskluwer.barometerit.com/b/system/041800000PH6)
+- [x] non-production code only
+- [x] static code analysis not applicable
 
 
     
